@@ -1,0 +1,74 @@
+/* CategoriesSection.css */
+.categories-section-img-sts {
+    padding: 60px 40px;
+    text-align: center;
+    background-color: #fbfbfb;
+  }
+  
+  .categories-subtitle-img-sts {
+    color: #ff6f61;
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .categories-title-img-sts {
+    font-size: 45px;
+    font-weight: 900;
+    margin-bottom: 80px;
+  }
+  
+  .categories-grid-img-sts {
+    margin-left: 8%;
+    margin-right: 8%;
+    display: grid;
+    border-radius: 30px;
+    grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    gap: 40px;
+  }
+  
+  .category-card-img-sts {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    text-align: center;
+  }
+  
+  .category-card-img-sts:hover {
+    transform: translateY(-10px);
+  }
+  
+  .category-image-img-sts {
+    background-color: #a4ffa4; /* Light green background color */
+  width: 120px; /* Set a fixed width */
+  height: 120px; /* Set the same height as width to make it a square */
+  border-radius: 50%; /* This makes it a perfect circle */
+  display: flex;
+  align-items: center; /* Center the image vertically */
+  justify-content: center; /* Center the image horizontally */
+  margin: 0 auto 20px; /* Center the circle and add margin at the bottom */
+  }
+  
+  .category-image-img-sts img {
+    width: 40%;
+    height: 40%;
+  }
+  
+  .category-name{
+    font-size: 26px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  
+  .category-count {
+    color: #7a7a7a;
+    font-size: 22px;
+    font-weight: 600;
+    font-size: 14px;
+  }
+#category{
+  border-radius: 30px;
+}
+  

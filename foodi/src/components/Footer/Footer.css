@@ -1,0 +1,121 @@
+.footer {
+  background-color: #fcfcfc; /* Dark background */
+  color: #ecf0f1; /* Light text color */
+  padding: 30px 10px;
+  font-family: 'Arial', sans-serif; /* Use a clean font */
+}
+
+.footer-container {
+  max-width: 1500px; /* Limit the width */
+  margin: 0 auto; /* Center the footer */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.footer-tagline{
+  color: #464646;
+  font-weight: 600;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.footer-brand {
+  flex: 1;
+  min-width: 250px; /* Minimum width for brand section */
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  font-size: 24px;
+}
+
+.logo-letter {
+  background-color:#39da49;
+    color: #fff;
+    padding: 10px 15px; /* Bigger logo */
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+.logo-text {
+  font-weight: 800;
+  font-size: 24px;
+  margin-left: 5px;
+}
+
+.footer-tagline {
+  margin-top: 10px;
+  font-size: 20px;
+  margin-right: 0px;
+  line-height: 1.5;
+}
+
+.footer-links {
+  flex: 2;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; /* Allow wrapping on smaller screens */
+}
+
+.footer-section {
+  color: #464646;
+  font-weight: 600;
+  flex: 1;
+  min-width: 200px; /* Minimum width for sections */
+  margin: 10px; /* Space between sections */
+}
+
+.footer-section h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+  color: #39da49; /* Section title color */
+}
+
+.footer-section ul {
+  list-style: none;
+  padding: 10px;
+}
+
+.footer-section li {
+  margin-bottom: 28px; /* Space between links */
+}
+
+.footer-section a {
+  color: #464646;
+  font-weight: 500;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-section a:hover {
+  color: #39da49; /* Change color on hover */
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px; /* Space between icons */
+}
+
+.social-icon {
+  color: #ecf0f1;
+  transition: color 0.3s;
+}
+
+.social-icon:hover {
+  color: #39da49; /* Change color on hover */
+}
+
+.copyright {
+  color: #464646;
+  text-align: center;
+  margin-top: 20px;
+  font-size: 18px;
+  font-weight: 600
+}

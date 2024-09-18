@@ -1,0 +1,117 @@
+/* Header.css */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px; /* Increase size */
+    background-color: #fbfff9;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+  
+  .header-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+  }
+  
+  .logo-icon {
+    background-color:#39da49;
+    color: #fff;
+    padding: 10px 15px; /* Bigger logo */
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 4px;
+  }
+  
+  .logo-text {
+    margin-left: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #000;
+  }
+  
+  .nav-links {
+    display: flex;
+    justify-content: center; /* Center the links */
+    flex: 1; /* Allow flex to center */
+  }
+  
+  .nav-links a {
+    margin: 0 20px;
+    color: #000;
+    text-decoration: none;
+    font-size: 18px; /* Bigger font */
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    transition: color 0.3s ease-in-out; /* Smooth animation */
+  }
+  
+  .nav-links a:hover {
+    color: #00d774; /* Hover color */
+  }
+  
+  .nav-arrow {
+    margin-left: 5px;
+    color: #39da49;
+    width: 20px;
+    height: auto;
+    stroke-width: 20%;
+    transition: transform 0.3s ease-in-out; /* Arrow animation */
+  }
+  
+  .nav-links a:hover .nav-arrow {
+    transform: rotate(180deg); /* Arrow rotates */
+  }
+  
+  .header-right {
+    display: flex;
+    
+    align-items: center;
+  }
+  
+  .search-icon,
+  .cart-icon {
+    margin-right: 50px;
+    position: relative;
+    color: #000;
+  }
+  
+  .cart-count {
+    position: absolute;
+    top: -5px;
+    right: -10px;
+    background-color: #39da49;
+    color: #fff;
+    border-radius: 50%;
+    padding: 2px 5px;
+    font-size: 12px;
+  }
+  
+  .contact-btn {
+    background-color: #39da49;
+    color: #fff;
+    border: none;
+    padding: 18px 20px;
+    border-radius: 25px;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out; /* Smooth animation */
+  }
+  
+  .contact-btn:hover {
+    background-color: #39da49; /* Hover color */
+  }
+  
+  .contact-btn svg {
+    margin-right: 5px;
+  }
+  

@@ -1,0 +1,154 @@
+/* MenuCarousel.css */
+.body{
+  background-color: #fbfbfb;
+}
+.menu-carousel {
+    max-width: 1500px; /* equivalent to max-w-6xl */
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1rem;
+    background-color: #fbfbfb;
+  }
+  
+  .special-dishes {
+    color: #ef4444; /* text-red-500 */
+    text-transform: uppercase;
+    font-size: 0.875rem; /* text-sm */
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .carousel-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+  }
+  
+  .carousel-title {
+    font-size: 2rem; /* text-3xl */
+    font-weight: 700;
+    margin-bottom: 50px;
+  }
+  
+  .navigation-buttons {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .nav-button {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 28px;
+    background-color: #e5e7eb; /* bg-gray-200 */
+  }
+  
+  .nav-button.next {
+    background-color: #4ade80; /* bg-green-400 */
+  }
+  
+  .nav-button svg {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
+  
+  .nav-button.next svg {
+    color: white;
+  }
+  
+  .dishes-container {
+    display: flex;
+    gap: 1.5rem;
+  }
+  
+  .dish-card {
+    flex: 1;
+    background-color: white;
+    border-radius: 30px;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    overflow: hidden;
+  }
+  
+  .dish-image-container {
+    position: relative;
+  }
+  
+  .dish-image {
+    width: 300px;
+    height: 300px;
+    margin-left: 80px;
+    object-fit:contain;
+  }
+  
+  .favorite-button {
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+    padding: 0.375rem;
+    background-color: #4ade80;
+    border: none;
+    padding-top: 15px;
+    border-radius: 28px;
+  }
+  
+  .favorite-button svg {
+    width: 1.25rem;
+    height: 1.25rem;
+    color: white;
+  }
+  
+  .dish-details {
+    padding: 1rem;
+  }
+  
+  .dish-name {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-bottom: 0.25rem;
+  }
+  
+  .dish-description {
+    color: #6b7280; /* text-gray-500 */
+    font-size: 0.875rem;
+    margin-bottom: 0.75rem;
+  }
+  
+  .dish-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .dish-price {
+    color: #ef4444; /* text-red-500 */
+    font-weight: 700;
+  }
+  
+  .dish-rating {
+    display: flex;
+    align-items: center;
+  }
+  
+  .star-icon {
+    width: 1.25rem;
+    height: 1.25rem;
+    color: #fbbf24; /* text-yellow-400 */
+    margin-right: 0.25rem;
+  }
+
+  .dishes-container {
+    display: flex;
+    gap: 1.5rem;
+    transition: transform 0.5s ease;
+  }
+  
+  .dish-card {
+    flex: 0 0 calc(33.333% - 1rem);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .dish-card.transitioning {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  
